@@ -23,7 +23,7 @@ After you have completed the above prerequisites, follow the instruction in the 
 
 •	Install the necessary dependencies at the top of the code.
 
-•	Enter the path of where you downloaded the Geckodriver.exe, my path is already there as an example [Line 8].
+•	Enter the path of where you downloaded the Geckodriver.exe [Line 8].
 
 •	Enter your Gmail address that you created to send the emails from [Line 24].
 
