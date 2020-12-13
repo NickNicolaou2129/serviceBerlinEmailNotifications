@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time, hashlib
 from smtplib import SMTP as SMTP
 
-driver = webdriver.Firefox(executable_path=r'C:\Users\Me\AppData\Local\Programs\Python\Python37\geckodriver.exe')  # Insert path of your Geckdriver.exe inside the quotes
+driver = webdriver.Firefox(executable_path=r'ENTER PATH OF GECKODRIVER.EXE')  # Insert path of your Geckdriver.exe inside the quotes
 driver.get("https://service.berlin.de/dienstleistung/120686/")  # Loads initial page
 
 appointmentPageLink = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[9]/div[1]/p[1]/a[1]")))
